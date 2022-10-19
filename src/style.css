@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fffafa;
+}
+
+.dark h1 {
+  -webkit-text-stroke-color: #333333;
+}
+
+@layer base {
+  h1,
+  h2 {
+    font-family: "Roboto", sans-serif;
+  }
+}
