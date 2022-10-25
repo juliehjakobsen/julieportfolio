@@ -8,119 +8,192 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
       rel="stylesheet"
     />
-    <!-- hidden lg:block -->
-    <script type="module" crossorigin src="./assets/main.fcc32360.js"></script>
-    <link rel="stylesheet" href="./assets/index.38d38be3.css">
+    <script type="module" crossorigin src="./assets/main.1f34473b.js"></script>
+    <link rel="stylesheet" href="./assets/index.eb2b28d4.css">
   </head>
-  <body class="bg-transparent bg-grey text-white dark:bg-white dark:text-grey">
-    <header>
-      <nav class="flex w-full justify-around">
-        <ul class="flex w-1/2 place-content-start justify-around">
-          <li class="pt-3">
-            <a
-              class="hover:underline lg:text-xl"
-              href="https://www.facebook.com/julie.hagemann.7"
-              >Facebook</a
-            >
-          </li>
+  <body
+    class="bg-bg_web bg-fixed text-white dark:bg-bg_light_web dark:text-black"
+  >
+    <header class="">
+      <nav class="p-5">
+        <ul class="flex justify-between">
           <li class="pt-2">
-            <button id="light" data-theme="light" class="">
+            <button
+              id="light"
+              data-theme="light"
+              class="hover_pop w-8 bg-transparent lg:w-12"
+            >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                aria-hidden="true"
-                role="img"
-                class="iconify iconify--mdi pointer-events-none"
-                width="32"
-                height="32"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 24 24"
+                viewBox="0 0 16 16"
+                class="border-none bg-none fill-red dark:fill-darkred"
               >
                 <path
-                  d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1h4m6-10h3v2h-3v-2M1 11h3v2H1v-2M13 1v3h-2V1h2M4.92 3.5l2.13 2.14l-1.42 1.41L3.5 4.93L4.92 3.5m12.03 2.13l2.12-2.13l1.43 1.43l-2.13 2.12l-1.42-1.42z"
-                  fill="currentColor"
-                ></path>
+                  d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1a.5.5 0 0 1 0-1a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"
+                />
               </svg>
             </button>
           </li>
-        </ul>
-        <ul class="flex w-1/2 place-content-end justify-around">
+
           <li class="pt-2">
-            <button id="dark" data-theme="dark" class="">
+            <button
+              id="dark"
+              data-theme="dark"
+              class="hover_pop w-8 bg-transparent lg:w-12"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 aria-hidden="true"
                 role="img"
-                class="iconify iconify--ic pointer-events-none"
-                width="32"
-                height="32"
+                class="iconify iconify--ic pointer-events-none fill-red dark:fill-darkred"
                 preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
                 <path
                   d="M11.01 3.05C6.51 3.54 3 7.36 3 12a9 9 0 0 0 9 9c4.63 0 8.45-3.5 8.95-8c.09-.79-.78-1.42-1.54-.95A5.403 5.403 0 0 1 11.1 7.5c0-1.06.31-2.06.84-2.89c.45-.67-.04-1.63-.93-1.56z"
-                  fill="currentColor"
                 ></path>
               </svg>
             </button>
           </li>
-          <li class="pt-3">
-            <a
-              class="hover:underline lg:text-xl"
-              href="https://www.linkedin.com/in/julie-hagemann-jakobsen-b54296204/"
-              >LinkedIn</a
-            >
-          </li>
         </ul>
       </nav>
     </header>
-
     <main class="overflow-clip">
       <!------------------------------------------------------------------- hero section -->
-      <section
-        class="grid w-full grid-rows-2 justify-around gap-10 py-10 lg:p-10"
-      >
-        <div class="">
-          <h1 class="px-5 text-left text-6xl tracking-[0.15rem] lg:text-8xl">
-            JULIE JAKOBSEN
+      <section class="cursor-default lg:p-20 lg:pt-10 lg:pb-0">
+        <!-- intro h1 -->
+        <div class="lg:text-center">
+          <h1 class="h1_indgang text-center text-4xl font-bold lg:text-7xl">
+            Hej! Jeg er Julie.
           </h1>
         </div>
 
-        <div class="">
-          <h1 class="px-5 text-right text-6xl tracking-[0.15rem] lg:text-8xl">
-            DIGITAL DESIGNER
-          </h1>
-        </div>
+        <div class="lg:grid lg:grid-cols-2 lg:grid-rows-1">
+          <!-- intro p -->
+          <div class="py-7 pb-0 lg:col-start-2 lg:row-start-1 lg:pt-20">
+            <p class="mx-auto w-8/12 text-sm leading-5 lg:w-2/3 lg:text-base">
+              Velkommen til mit portfolio. Jeg håber, at du/I vil få et indblik
+              i mig som person og digital designer, men det er selvfølgelig kun
+              en lille del af det. Jeg er meget snakkesaglig, og vil hellere end
+              gerne mødes til en kop kaffe og tale om, hvorfor jeg er jeres
+              næste praktikant. <br />
+              Vi ses!
+            </p>
 
-        <div class="">
-          <img class="mx-auto w-full lg:w-1/2" src="./assets/julie.7bc0b2b3.webp" alt="" />
+            <!-- links -->
+            <div
+              class="mx-auto grid w-2/3 gap-5 pt-10 text-sm lg:w-2/3 lg:gap-10 lg:pt-10 lg:text-base"
+            >
+              <div class="flex items-center gap-4">
+                <svg
+                  class="w-8 bg-transparent stroke-red dark:stroke-darkred lg:w-12"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2Z"
+                    />
+                    <path d="M8 21.168V14l4-7l4 7v7.168" />
+                    <path d="M8 14s1.127 1 2 1s2-1 2-1s1.127 1 2 1s2-1 2-1" />
+                  </g>
+                </svg>
+                <a
+                  class="text-xl hover:text-2xl hover:text-red dark:text-black dark:hover:text-darkred lg:text-2xl"
+                  href="#section_one"
+                  >PORTFOLIO</a
+                >
+              </div>
+
+              <div class="flex items-center gap-4">
+                <svg
+                  viewBox="0 0 20 20"
+                  class="w-8 bg-transparent fill-red dark:fill-darkred lg:w-12"
+                >
+                  <g>
+                    <path
+                      d="M7.8 6.35c.56 0 1.01-.45 1.01-1.01S8.36 4.33 7.8 4.33s-1.01.45-1.01 1.01s.45 1.01 1.01 1.01Z"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      d="M9.83 8.55c0-1.08-.91-1.86-2.03-1.86c-1.12 0-2.03.78-2.03 1.86v.51c0 .09.04.18.1.24c.06.06.15.1.24.1h3.38c.09 0 .18-.04.24-.1c.06-.06.1-.15.1-.24v-.51ZM5.75 11.5a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75Zm0 3a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75Z"
+                      clip-rule="evenodd"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.5 2.5c0-1.102.898-2 2-2h6.69c.562 0 1.092.238 1.465.631l.006.007l4.312 4.702c.359.383.527.884.527 1.36v10.3c0 1.102-.898 2-2 2h-11c-1.102 0-2-.898-2-2v-15Zm8.689 0H4.5v15h11V7.192l-4.296-4.685l-.003-.001a.041.041 0 0 0-.012-.006Z"
+                      clip-rule="evenodd"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.19.5a1 1 0 0 1 1 1v4.7h4.31a1 1 0 1 1 0 2h-5.31a1 1 0 0 1-1-1V1.5a1 1 0 0 1 1-1Z"
+                      clip-rule="evenodd"
+                    />
+                  </g>
+                </svg>
+                <a
+                  class="text-xl hover:text-2xl hover:text-red dark:text-black dark:hover:text-darkred lg:text-2xl"
+                  href="https://www.juliehagemann.dk/CV.pdf"
+                  target="“_blank”"
+                  >CV</a
+                >
+              </div>
+
+              <div class="flex items-center gap-4">
+                <svg
+                  class="w-8 bg-transparent fill-red dark:fill-darkred lg:w-12"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m19.23 15.26l-2.54-.29a1.99 1.99 0 0 0-1.64.57l-1.84 1.84a15.045 15.045 0 0 1-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52a2.001 2.001 0 0 0-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07c.53 8.54 7.36 15.36 15.89 15.89c1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98z"
+                  />
+                </svg>
+                <a
+                  class="dark:text-grey text-xl hover:text-2xl hover:text-red dark:hover:text-darkred lg:text-2xl"
+                  href="#footer"
+                  >KONTAKT</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- billede -->
+          <div class="row-start-1 pt-10 lg:col-start-1">
+            <img class="billede" src="img/julie.webp" alt="Billede af mig" />
+          </div>
         </div>
       </section>
 
       <!--------------------------------------------------------------------- content -->
       <!-- grid i desktop -->
-      <section class="w-full justify-around lg:grid lg:grid-cols-2">
+      <section
+        id="section_one"
+        class="w-full justify-around pt-5 lg:grid lg:grid-cols-2"
+      >
         <!------------------------------ about me -->
-        <article class="p-10 lg:p-20 lg:pt-10">
+        <article class="cursor-default p-10 lg:p-20 lg:pt-10">
           <div class="justify-around">
             <div class="pb-10">
-              <hr class="text-red" />
+              <hr id="linje" class="text-red dark:text-darkred" />
               <h2 class="py-5 text-center text-3xl tracking-[0.2rem]">
                 HVEM ER JEG?
               </h2>
-              <hr class="text-red" />
+              <hr class="text-red dark:text-darkred" />
             </div>
 
             <div class="text-sm lg:text-base">
               <p class="">
                 Jeg er en 22-årig pige fra Nordsjælland, der har forladt
                 markerne og stilheden til fordel for beton og støj. Som
-                mindstebarn har jeg lært at dele, tilpasse mig og ikke mindst
-                finde komfort i at tale med Gud og hver mand.
+                mindstebarnet i familien har jeg lært at dele, tilpasse mig og
+                ikke mindst finde komfort i at tale med Gud og hver mand.
               </p>
               <p class="pt-5">
                 Jeg er et ekstremt smilende menneske, og bliver tit beskrevet
@@ -136,14 +209,14 @@
           </div>
         </article>
         <!----------------------------- work skills -->
-        <article class="p-10 lg:p-20 lg:pt-10">
+        <article class="cursor-default p-10 lg:p-20 lg:pt-10">
           <div class="hjerterinview justify-around">
             <div class="pb-10">
-              <hr class="text-red" />
+              <hr class="text-red dark:text-darkred" />
               <h2 class="py-5 text-center text-3xl tracking-[0.2rem]">
                 WORK SKILLS
               </h2>
-              <hr class="text-red" />
+              <hr class="text-red dark:text-darkred" />
             </div>
 
             <!-- hjerter -->
@@ -179,7 +252,7 @@
                 <svg class="" width="24" height="24" viewBox="0 0 256 256">
                   <path
                     fill="currentColor"
-                    d="M128 226.2a20.1 20.1 0 0 1-14.2-5.8l-83.1-83.1a64.1 64.1 0 0 1 2.5-92.9a62.1 62.1 0 0 1 46-15.6a68.8 68.8 0 0 1 44.1 20l4.7 4.7l6.7-6.8a64.1 64.1 0 0 1 92.9 2.5a62.1 62.1 0 0 1 15.6 46a68.8 68.8 0 0 1-20 44.1l-81.1 81.1a19.8 19.8 0 0 1-14.1 5.8Zm5.6-14.3ZM75 52.7a38.1 38.1 0 0 0-25.7 9.5a40 40 0 0 0-1.6 58.1l80.3 80.3l78.2-78.2c15.9-16 17.5-41.6 3.6-57.1a40 40 0 0 0-58.1-1.6l-15.2 15.2a12 12 0 0 1-17 0l-13.2-13.1A44.2 44.2 0 0 0 75 52.7Z"
+                    d="m220.3 136.5l-81 81a15.9 15.9 0 0 1-22.6 0l-83.1-83.1a59.9 59.9 0 0 1 2.3-87c23.3-21.1 61.3-19.1 84.6 4.3l7.5 7.4l9.6-9.5A60.4 60.4 0 0 1 181.5 32a59.8 59.8 0 0 1 43.1 19.9c21 23.3 19.1 61.3-4.3 84.6Z"
                   />
                 </svg>
               </div>
@@ -216,7 +289,7 @@
                 <svg class="" width="24" height="24" viewBox="0 0 256 256">
                   <path
                     fill="currentColor"
-                    d="M128 226.2a20.1 20.1 0 0 1-14.2-5.8l-83.1-83.1a64.1 64.1 0 0 1 2.5-92.9a62.1 62.1 0 0 1 46-15.6a68.8 68.8 0 0 1 44.1 20l4.7 4.7l6.7-6.8a64.1 64.1 0 0 1 92.9 2.5a62.1 62.1 0 0 1 15.6 46a68.8 68.8 0 0 1-20 44.1l-81.1 81.1a19.8 19.8 0 0 1-14.1 5.8Zm5.6-14.3ZM75 52.7a38.1 38.1 0 0 0-25.7 9.5a40 40 0 0 0-1.6 58.1l80.3 80.3l78.2-78.2c15.9-16 17.5-41.6 3.6-57.1a40 40 0 0 0-58.1-1.6l-15.2 15.2a12 12 0 0 1-17 0l-13.2-13.1A44.2 44.2 0 0 0 75 52.7Z"
+                    d="m220.3 136.5l-81 81a15.9 15.9 0 0 1-22.6 0l-83.1-83.1a59.9 59.9 0 0 1 2.3-87c23.3-21.1 61.3-19.1 84.6 4.3l7.5 7.4l9.6-9.5A60.4 60.4 0 0 1 181.5 32a59.8 59.8 0 0 1 43.1 19.9c21 23.3 19.1 61.3-4.3 84.6Z"
                   />
                 </svg>
               </div>
@@ -224,43 +297,6 @@
             <div class="flex justify-between px-10 pb-5">
               <div>
                 <p class="text-xl">JavaScript</p>
-              </div>
-              <div class="hjerte flex">
-                <svg class="" width="24" height="24" viewBox="0 0 256 256">
-                  <path
-                    fill="currentColor"
-                    d="m220.3 136.5l-81 81a15.9 15.9 0 0 1-22.6 0l-83.1-83.1a59.9 59.9 0 0 1 2.3-87c23.3-21.1 61.3-19.1 84.6 4.3l7.5 7.4l9.6-9.5A60.4 60.4 0 0 1 181.5 32a59.8 59.8 0 0 1 43.1 19.9c21 23.3 19.1 61.3-4.3 84.6Z"
-                  />
-                </svg>
-                <svg class="" width="24" height="24" viewBox="0 0 256 256">
-                  <path
-                    fill="currentColor"
-                    d="m220.3 136.5l-81 81a15.9 15.9 0 0 1-22.6 0l-83.1-83.1a59.9 59.9 0 0 1 2.3-87c23.3-21.1 61.3-19.1 84.6 4.3l7.5 7.4l9.6-9.5A60.4 60.4 0 0 1 181.5 32a59.8 59.8 0 0 1 43.1 19.9c21 23.3 19.1 61.3-4.3 84.6Z"
-                  />
-                </svg>
-                <svg class="" width="24" height="24" viewBox="0 0 256 256">
-                  <path
-                    fill="currentColor"
-                    d="m220.3 136.5l-81 81a15.9 15.9 0 0 1-22.6 0l-83.1-83.1a59.9 59.9 0 0 1 2.3-87c23.3-21.1 61.3-19.1 84.6 4.3l7.5 7.4l9.6-9.5A60.4 60.4 0 0 1 181.5 32a59.8 59.8 0 0 1 43.1 19.9c21 23.3 19.1 61.3-4.3 84.6Z"
-                  />
-                </svg>
-                <svg class="" width="24" height="24" viewBox="0 0 256 256">
-                  <path
-                    fill="currentColor"
-                    d="M128 226.2a20.1 20.1 0 0 1-14.2-5.8l-83.1-83.1a64.1 64.1 0 0 1 2.5-92.9a62.1 62.1 0 0 1 46-15.6a68.8 68.8 0 0 1 44.1 20l4.7 4.7l6.7-6.8a64.1 64.1 0 0 1 92.9 2.5a62.1 62.1 0 0 1 15.6 46a68.8 68.8 0 0 1-20 44.1l-81.1 81.1a19.8 19.8 0 0 1-14.1 5.8Zm5.6-14.3ZM75 52.7a38.1 38.1 0 0 0-25.7 9.5a40 40 0 0 0-1.6 58.1l80.3 80.3l78.2-78.2c15.9-16 17.5-41.6 3.6-57.1a40 40 0 0 0-58.1-1.6l-15.2 15.2a12 12 0 0 1-17 0l-13.2-13.1A44.2 44.2 0 0 0 75 52.7Z"
-                  />
-                </svg>
-                <svg class="" width="24" height="24" viewBox="0 0 256 256">
-                  <path
-                    fill="currentColor"
-                    d="M128 226.2a20.1 20.1 0 0 1-14.2-5.8l-83.1-83.1a64.1 64.1 0 0 1 2.5-92.9a62.1 62.1 0 0 1 46-15.6a68.8 68.8 0 0 1 44.1 20l4.7 4.7l6.7-6.8a64.1 64.1 0 0 1 92.9 2.5a62.1 62.1 0 0 1 15.6 46a68.8 68.8 0 0 1-20 44.1l-81.1 81.1a19.8 19.8 0 0 1-14.1 5.8Zm5.6-14.3ZM75 52.7a38.1 38.1 0 0 0-25.7 9.5a40 40 0 0 0-1.6 58.1l80.3 80.3l78.2-78.2c15.9-16 17.5-41.6 3.6-57.1a40 40 0 0 0-58.1-1.6l-15.2 15.2a12 12 0 0 1-17 0l-13.2-13.1A44.2 44.2 0 0 0 75 52.7Z"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div class="flex justify-between px-10 pb-5">
-              <div>
-                <p class="text-xl">Copywriting</p>
               </div>
               <div class="hjerte flex">
                 <svg class="" width="24" height="24" viewBox="0 0 256 256">
@@ -334,7 +370,44 @@
             </div>
             <div class="flex justify-between px-10 pb-5">
               <div>
-                <p class="text-xl">Figma</p>
+                <p class="text-xl">Adobe CC</p>
+              </div>
+              <div class="hjerte flex">
+                <svg class="" width="24" height="24" viewBox="0 0 256 256">
+                  <path
+                    fill="currentColor"
+                    d="m220.3 136.5l-81 81a15.9 15.9 0 0 1-22.6 0l-83.1-83.1a59.9 59.9 0 0 1 2.3-87c23.3-21.1 61.3-19.1 84.6 4.3l7.5 7.4l9.6-9.5A60.4 60.4 0 0 1 181.5 32a59.8 59.8 0 0 1 43.1 19.9c21 23.3 19.1 61.3-4.3 84.6Z"
+                  />
+                </svg>
+                <svg class="" width="24" height="24" viewBox="0 0 256 256">
+                  <path
+                    fill="currentColor"
+                    d="m220.3 136.5l-81 81a15.9 15.9 0 0 1-22.6 0l-83.1-83.1a59.9 59.9 0 0 1 2.3-87c23.3-21.1 61.3-19.1 84.6 4.3l7.5 7.4l9.6-9.5A60.4 60.4 0 0 1 181.5 32a59.8 59.8 0 0 1 43.1 19.9c21 23.3 19.1 61.3-4.3 84.6Z"
+                  />
+                </svg>
+                <svg class="" width="24" height="24" viewBox="0 0 256 256">
+                  <path
+                    fill="currentColor"
+                    d="m220.3 136.5l-81 81a15.9 15.9 0 0 1-22.6 0l-83.1-83.1a59.9 59.9 0 0 1 2.3-87c23.3-21.1 61.3-19.1 84.6 4.3l7.5 7.4l9.6-9.5A60.4 60.4 0 0 1 181.5 32a59.8 59.8 0 0 1 43.1 19.9c21 23.3 19.1 61.3-4.3 84.6Z"
+                  />
+                </svg>
+                <svg class="" width="24" height="24" viewBox="0 0 256 256">
+                  <path
+                    fill="currentColor"
+                    d="M128 226.2a20.1 20.1 0 0 1-14.2-5.8l-83.1-83.1a64.1 64.1 0 0 1 2.5-92.9a62.1 62.1 0 0 1 46-15.6a68.8 68.8 0 0 1 44.1 20l4.7 4.7l6.7-6.8a64.1 64.1 0 0 1 92.9 2.5a62.1 62.1 0 0 1 15.6 46a68.8 68.8 0 0 1-20 44.1l-81.1 81.1a19.8 19.8 0 0 1-14.1 5.8Zm5.6-14.3ZM75 52.7a38.1 38.1 0 0 0-25.7 9.5a40 40 0 0 0-1.6 58.1l80.3 80.3l78.2-78.2c15.9-16 17.5-41.6 3.6-57.1a40 40 0 0 0-58.1-1.6l-15.2 15.2a12 12 0 0 1-17 0l-13.2-13.1A44.2 44.2 0 0 0 75 52.7Z"
+                  />
+                </svg>
+                <svg class="" width="24" height="24" viewBox="0 0 256 256">
+                  <path
+                    fill="currentColor"
+                    d="M128 226.2a20.1 20.1 0 0 1-14.2-5.8l-83.1-83.1a64.1 64.1 0 0 1 2.5-92.9a62.1 62.1 0 0 1 46-15.6a68.8 68.8 0 0 1 44.1 20l4.7 4.7l6.7-6.8a64.1 64.1 0 0 1 92.9 2.5a62.1 62.1 0 0 1 15.6 46a68.8 68.8 0 0 1-20 44.1l-81.1 81.1a19.8 19.8 0 0 1-14.1 5.8Zm5.6-14.3ZM75 52.7a38.1 38.1 0 0 0-25.7 9.5a40 40 0 0 0-1.6 58.1l80.3 80.3l78.2-78.2c15.9-16 17.5-41.6 3.6-57.1a40 40 0 0 0-58.1-1.6l-15.2 15.2a12 12 0 0 1-17 0l-13.2-13.1A44.2 44.2 0 0 0 75 52.7Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="flex justify-between px-10 pb-5">
+              <div>
+                <p class="text-xl">Prototyping</p>
               </div>
               <div class="hjerte flex">
                 <svg class="" width="24" height="24" viewBox="0 0 256 256">
@@ -376,13 +449,14 @@
       <!-- grid i desktop -->
       <section class="w-full justify-around lg:grid lg:grid-cols-2">
         <!------------------------------- portfolio -->
-        <article class="p-10 lg:p-20 lg:pt-10">
+
+        <article class="cursor-default p-10 lg:p-20 lg:pt-10">
           <div class="pb-10">
-            <hr class="text-red" />
+            <hr class="text-red dark:text-darkred" />
             <h2 class="py-5 text-center text-3xl tracking-[0.2rem]">
               PORTFOLIO
             </h2>
-            <hr class="text-red" />
+            <hr class="text-red dark:text-darkred" />
           </div>
           <div class="grid gap-20 lg:grid lg:grid-cols-2 lg:gap-10">
             <!-- grob -->
@@ -391,16 +465,20 @@
                 <h3 class="pb-3 text-2xl">Klub Grob</h3>
                 <p class="text-xs italic lg:text-sm">
                   Design Thinking
-                  <span class="text-red"> | </span> Konceptudvikling
-                  <span class="text-red"> | </span> Målgruppe- og
-                  konkurrentanalyse
-                  <span class="text-red"> | </span> Videoproduktion
-                  <span class="text-red"> | </span> Forretningsmodeller
+                  <span class="text-red dark:text-darkred"> | </span>
+                  Konceptudvikling
+                  <span class="text-red dark:text-darkred"> | </span> Målgruppe-
+                  og konkurrentanalyse
+                  <span class="text-red dark:text-darkred"> | </span>
+                  Videoproduktion
+                  <span class="text-red dark:text-darkred"> | </span>
+                  Forretningsmodeller
                 </p>
               </div>
               <div class="">
                 <a
                   href="http://www.juliehagemann.dk/kea/08_brugercentreret/grob/index.html"
+                  target="“_blank”"
                   ><img
                     class="grayscale transition duration-500 hover:grayscale-0"
                     src="img/grob.webp"
@@ -415,16 +493,21 @@
               <div>
                 <h3 class="pb-3 text-2xl">Dement-Bent</h3>
                 <p class="text-xs italic lg:text-sm">
-                  HTML <span class="text-red"> | </span> CSS
-                  <span class="text-red"> | </span> JavaScript
-                  <span class="text-red"> | </span> Adobe Illustrator
-                  <span class="text-red"> | </span> Paper Prototyping
-                  <span class="text-red"> | </span> Storytelling
-                  <span class="text-red"> | </span> UI- og spilelementer
+                  HTML <span class="text-red dark:text-darkred"> | </span> CSS
+                  <span class="text-red dark:text-darkred"> | </span> JavaScript
+                  <span class="text-red dark:text-darkred"> | </span> Adobe
+                  Illustrator
+                  <span class="text-red dark:text-darkred"> | </span> Paper
+                  Prototyping
+                  <span class="text-red dark:text-darkred"> | </span>
+                  Storytelling
+                  <span class="text-red dark:text-darkred"> | </span> UI- og
+                  spilelementer
                 </p>
               </div>
               <div class="">
                 <a
+                  target="“_blank”"
                   href="http://www.juliehagemann.dk/kea/04_animation/spil/spil.html"
                   ><img
                     class="grayscale transition duration-500 hover:grayscale-0"
@@ -440,17 +523,23 @@
               <div>
                 <h3 class="pb-3 text-2xl">A-CD</h3>
                 <p class="text-xs italic lg:text-sm">
-                  HTML <span class="text-red"> | </span> CSS
-                  <span class="text-red"> | </span> JavaScript
-                  <span class="text-red"> | </span> Dynamisk indhold
-                  <span class="text-red"> | </span> Design Thinking
-                  <span class="text-red"> | </span> Visuel identet
-                  <span class="text-red"> | </span> Adobe Illustrator
-                  <span class="text-red"> | </span> Brugertests
+                  HTML <span class="text-red dark:text-darkred"> | </span> CSS
+                  <span class="text-red dark:text-darkred"> | </span> JavaScript
+                  <span class="text-red dark:text-darkred"> | </span> Dynamisk
+                  indhold
+                  <span class="text-red dark:text-darkred"> | </span> Design
+                  Thinking
+                  <span class="text-red dark:text-darkred"> | </span> Visuel
+                  identet
+                  <span class="text-red dark:text-darkred"> | </span> Adobe
+                  Illustrator
+                  <span class="text-red dark:text-darkred"> | </span>
+                  Brugertests
                 </p>
               </div>
               <div class="">
                 <a
+                  target="“_blank”"
                   href="http://www.juliehagemann.dk/kea/07_dynamiskweb/07.04.01-gruppeprojekt/"
                   ><img
                     class="grayscale transition duration-500 hover:grayscale-0"
@@ -467,19 +556,25 @@
                 <h3 class="pb-3 text-2xl">Baun Studio</h3>
                 <p class="text-xs italic lg:text-sm">
                   HTML
-                  <span class="text-red"> | </span>
+                  <span class="text-red dark:text-darkred"> | </span>
                   CSS
 
-                  <span class="text-red"> | </span>
+                  <span class="text-red dark:text-darkred"> | </span>
                   Design Thinking
-                  <span class="text-red"> | </span> Situationsanalyse
-                  <span class="text-red"> | </span> Kommunikationsstrategi
-                  <span class="text-red"> | </span> SoMe-indholdsplan
-                  <span class="text-red"> | </span> Brugertests
+                  <span class="text-red dark:text-darkred"> | </span>
+                  Situationsanalyse
+                  <span class="text-red dark:text-darkred"> | </span>
+                  Kommunikationsstrategi
+                  <span class="text-red dark:text-darkred"> | </span>
+                  SoMe-indholdsplan
+                  <span class="text-red dark:text-darkred"> | </span>
+                  Brugertests
                 </p>
               </div>
               <div class="">
-                <a href="http://emmaiguldbergsgade.dk/kea2/baun/"
+                <a
+                  href="http://emmaiguldbergsgade.dk/kea2/baun/"
+                  target="“_blank”"
                   ><img
                     class="grayscale transition duration-500 hover:grayscale-0"
                     src="img/baun.png"
@@ -492,20 +587,20 @@
         </article>
 
         <!------------------------------- praktikant -->
-        <article class="p-10 lg:p-20 lg:pt-10">
+        <article class="cursor-default p-10 lg:p-20 lg:pt-10">
           <div class="pb-10">
-            <hr class="text-red" />
+            <hr class="text-red dark:text-darkred" />
             <h2 class="py-5 text-center text-3xl tracking-[0.2rem]">
               Som arbejdsplads vil I få...
             </h2>
-            <hr class="text-red" />
+            <hr class="text-red dark:text-darkred" />
           </div>
           <div class="text-sm lg:grid lg:grid-cols-2 lg:gap-5 lg:text-base">
             <p class="">
               En hårdtarbejdende og storsmilende kollega, der er vild med at
               lære nye teknikker og spændende mennesker at kende. Som
-              klassekammerat er jeg kendt for at møde tidligt og være
-              disciplineret i skolearbejdet.
+              klassekammerat er jeg kendt for at være disciplineret og
+              løsningsorienteret.
             </p>
             <p class="pt-5 lg:pt-0">
               Som digital designer bruger jeg mine kræfter på at blive bedre
@@ -519,15 +614,45 @@
             </p>
             <p class="pt-5 lg:pt-0">
               Jeg bruger desuden også meget energi på at gøre mit
-              frontend-arbejde overskueligt for eventuelle beskuere og
-              derudover, så vidt muligt, bæredygtigt.
+              frontend-arbejde overskueligt for eventuelle beskuere, men også
+              for selv at kunne videreudvikle arbejdet så nemt som muligt.
             </p>
           </div>
         </article>
       </section>
     </main>
 
-    <footer></footer>
+    <footer
+      id="footer"
+      class="grid grid-rows-4 gap-3 bg-bg_light_web p-10 text-center text-sm font-extrabold text-black dark:bg-bg_web dark:text-darkred"
+    >
+      <a
+        class="hover:text-base hover:text-red dark:hover:text-darkred"
+        target="“_blank”"
+        href="https://www.facebook.com/julie.hagemann.7"
+        >Facebook</a
+      >
+      <a
+        class="hover:text-base hover:text-red dark:hover:text-darkred"
+        target="“_blank”"
+        href="https://www.linkedin.com/in/julie-hagemann-jakobsen-b54296204/"
+        >LinkedIn</a
+      >
+      <address>
+        <a
+          class="hover:text-base hover:text-red dark:hover:text-darkred"
+          href="mailto:juliehage@live.dk"
+          >juliehage@live.dk</a
+        >
+      </address>
+      <address>
+        <a
+          class="hover:text-base hover:text-red dark:hover:text-darkred"
+          href="tel:+4522242042"
+          >+45 22 24 20 42</a
+        >
+      </address>
+    </footer>
 
     
   </body>
