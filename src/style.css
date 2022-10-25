@@ -2,19 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #fffafa;
-}
-
-.dark h1 {
-  -webkit-text-stroke-color: #333333;
+.billede {
+  transform: scaleX(-1);
 }
 
 @layer base {
   h1,
-  h2 {
-    font-family: "Roboto", sans-serif;
+  h2,
+  h3,
+  h4,
+  h5,
+  a {
+    font-family: "Inter", sans-serif;
   }
+}
+
+/* Pop */
+@-webkit-keyframes hover_pop {
+  50% {
+    transform: scale(1.2);
+  }
+}
+@keyframes hover_pop {
+  50% {
+    transform: scale(1.2);
+  }
+}
+.hover_pop {
+  transform: perspective(1px) translateZ(0);
+  color: "#ff6c00";
+}
+
+.hover_pop:hover,
+.hover_pop:focus,
+.hover_pop:active {
+  animation-name: hover_pop;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+hr {
+  border-top: 3px solid;
+}
+
+.h1_indgang {
+  animation: h1_indgang 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes h1_indgang {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+footer a {
+  font-weight: 800;
 }
