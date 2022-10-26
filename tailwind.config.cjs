@@ -14,17 +14,10 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        bg_web: "url('img/bg_web.png')",
-        bg_light_web: "url('img/bg_light_web.png')",
-      },
-      inset: {
-        bjaelke_position: "38rem",
+        bg_web: "url('img/bg_web.webp')",
+        bg_light_web: "url('img/bg_light_web.webp')",
       },
     },
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/forms"),
-    require("daisyui"),
-  ],
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };

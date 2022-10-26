@@ -1,11 +1,4 @@
 import "./style.css";
-/* Import af Motion One bibliotek */
-import { animate, stagger, inView, scroll, timeline } from "motion";
-
-// Import af AlpineJS
-import Alpine from "alpinejs";
-window.Alpine = Alpine;
-Alpine.start();
 
 // dark/light mode
 const btnLight = document.querySelector("#light");
